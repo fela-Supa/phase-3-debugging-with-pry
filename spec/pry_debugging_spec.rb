@@ -1,4 +1,4 @@
-require 'pry'
+require 'pty'
 require './lib/pry_debugging.rb'
 
 describe "#plus_two" do 
@@ -7,3 +7,8 @@ describe "#plus_two" do
 	end
 
 end
+# def plus_two(num)
+# 	num + 2
+# 	binding.pry
+# 	num 
+# end
